@@ -1,5 +1,4 @@
 #!/bin/bash
-
 myDL="========================="
 myM00="Completed! "
 myM01="Step 01"
