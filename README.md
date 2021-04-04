@@ -25,3 +25,16 @@ In order to use this project, please follow the following steps.
 7 - Script will automatically install hadoop in your linux machine and create a new user with following credentials.
 
     User Name : huser        Password  : huser
+
+8 - To start hadoop daemons, use the following commands.
+
+    hdfs namenode -format
+    /home/huser/hadoop/hadoop-3.2.2/sbin/start-dfs.sh
+    /home/huser/hadoop/hadoop-3.2.2/sbin/start-yarn.sh
+    jps
+
+9 - For graphical interface, open firefox or any other web browser and visit the following locations.
+
+    NAME NODE :  http://localhost:9870
+    DATA NODE :  http://localhost:9864
+    HADOOP :  http://localhost:8088
