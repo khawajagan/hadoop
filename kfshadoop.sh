@@ -181,9 +181,12 @@ myWork99 ()
 	echo "$2/sbin/start-dfs.sh"
 	echo "$2/sbin/start-yarn.sh"
 	echo "jps"
-	#/usr/bin/firefox --new-window http://localhost:9870
-	#/usr/bin/firefox --new-window http://localhost:9864
-	#/usr/bin/firefox --new-window http://localhost:8088
+	myMsg $mySL
+	echo "Open Browser and visit following URLs"
+	myMsg $mySL
+	echo "NAME NODE :  http://localhost:9870"
+	echo "DATA NODE :  http://localhost:9864"
+	echo "   HADOOP :  http://localhost:8088"
 	myMsg $myDL
 }
 mywork00 ()
