@@ -10,7 +10,7 @@ In order to use this project, please follow the following steps.
 
 3 - Issue the following command to download this project's shells script
 
-    wget https://github.com/khawajagan/hadoop/blob/main/kfshadoop.sh
+    wget https://github.com/khawajagan/hadoop/raw/main/kfshadoop.sh
     
 4 - Now you must have only two files in the directoy i.e. kfshadoop.sh and apache hadoop tar.gz file.
 
