@@ -2,6 +2,8 @@
 
 This project provides a simple way to install hadoop on linux machine in a single node mode for testing.
 
+Video tutorial of this project is available at https://www.youtube.com/watch?v=rThBuuedgcw
+
 In order to use this project, please follow the following steps.
 
 1 - Download hadoop installer from https://hadoop.apache.com
